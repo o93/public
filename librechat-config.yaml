@@ -2917,8 +2917,8 @@ endpoints:
         fetch: false
       titleConvo: true
       titleMethod: "completion"
-      titleModel: "grok-beta"
+      titleModel: "grok-4-1-fast-reasoning"
       summarize: false
-      summaryModel: "grok-beta"
+      summaryModel: "grok-4-1-fast-non-reasoning"
       forcePrompt: false
       modelDisplayLabel: "Grok"
