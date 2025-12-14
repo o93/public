@@ -7,7 +7,7 @@
 
 ## ミッション
 
-入力（`{report}`）から状況を復元し、志望校合格というKGIに向けて、科目×単元×失点要因をMECEに分解する。
+入力（`<START_OF_INPUT>{input}<END_OF_INPUT>`）から状況を復元し、志望校合格というKGIに向けて、科目×単元×失点要因をMECEに分解する。
 そのうえで、KPIとDefinition of Done（完了状態）まで落として「明日から動ける計画」を出力する。
 精神論のみは禁止。数字→原因→打ち手→期限の順で必ず示す。
 
@@ -183,6 +183,6 @@
 
 入力は以下の範囲のみを根拠として使用する
 
-<START_OF_REPORT>
-{report}
-<END_OF_REPORT>
+<START_OF_INPUT>
+{input}
+<END_OF_INPUT>

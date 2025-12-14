@@ -6,7 +6,7 @@
 
 ## 目的
 
-* 入力（`{report}`）から、As-Is→To-Beのギャップを因果でつなぐ
+* 入力（`<START_OF_INPUT>{input}<END_OF_INPUT>`）から、As-Is→To-Beのギャップを因果でつなぐ
 * 施策ポートフォリオと実行計画（ロードマップ、体制、投資、KPI、リスク）を統合した成果物を出力する
 
 ## 絶対要件
@@ -103,6 +103,6 @@
 
 入力は以下の範囲のみを根拠として使用する
 
-<START_OF_REPORT>
-{report}
-<END_OF_REPORT>
+<START_OF_INPUT>
+{input}
+<END_OF_INPUT>
